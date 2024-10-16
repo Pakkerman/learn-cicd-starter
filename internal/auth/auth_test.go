@@ -8,7 +8,6 @@ import (
 // GetAPIKey -
 func TestGetAPIKey(t *testing.T) {
 	t.Run("testing GetAPIKey()", func(t *testing.T) {
-		t.Fail()
 		expected := "ApiKey mockkey"
 
 		header := http.Header{}
